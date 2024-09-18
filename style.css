@@ -10,6 +10,14 @@ body{
     margin:auto;
     
 }
+.Container{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px ;
+    border-color: whitesmoke;
+    border: solid;
+}
 .contain{
     display:flex;
     flex-direction: row;
@@ -17,25 +25,53 @@ body{
 }
 .heading2{
     font-size: medium;
-    background-color: blueviolet;
+    background-color: rgb(19, 19, 169);
     color:white; 
     width:50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     height: 250px;
     padding: 20px;
 }
 .heading3{
     font-size: medium;
-    background-color: blue;
+    background-color: blueviolet;
     color:white;
     width:50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     height:250px;
     padding: 20px;
 }
+.container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between
+}
 .heading4{
     font-size: medium;
+    background-color: rgb(252, 34, 34);
     color:white;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    padding: 20px;
 }
 .heading5{
     font-size: medium;
+    background-color: yellowgreen;
     color:white;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    padding: 20px;
+}
+.contact{
+    background-color: gray;
+    color: white;
+    padding-left: 10%;
 }
