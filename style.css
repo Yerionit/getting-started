@@ -11,14 +11,17 @@ body{
     
 }
 .Container{
+   
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 60px;
     padding-bottom: 60px ;
     border-color: whitesmoke;
     border: solid;
+    flex-wrap: wrap;
 }
 .contain{
+    width: 100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,6 +49,7 @@ body{
     padding: 20px;
 }
 .container2{
+    width: 100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between
@@ -71,6 +75,7 @@ body{
     padding: 20px;
 }
 .contact{
+    width: 100%;
     background-color: gray;
     color: white;
     padding-left: 10%;
