@@ -6,9 +6,10 @@ body{
     color:white;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    width:50%;
-    height: 100%;
-    margin:auto;
+   
+    
+    margin: auto;
+    text-align: center;
     
 }
 .Container{
@@ -17,6 +18,7 @@ body{
     margin-right: 10%;
     padding-top: 60px;
     padding-bottom: 60px ;
+    width: 100%;
     border-color: whitesmoke;
     border: solid;
     flex-wrap: wrap;
@@ -27,7 +29,6 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow: auto;
 }
 .heading2{
     font-size: medium;
@@ -37,7 +38,6 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    height: 100%;
     padding: 20px;
 }
 .heading3{
@@ -48,7 +48,6 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    height:100%;
     padding: 20px;
 }
 .container2{
@@ -65,7 +64,6 @@ body{
     width: 50%;
     margin-left: 10px;
     margin-right: 10px;
-    height: 100%;
     padding: 20px;
 }
 .heading5{
@@ -75,7 +73,6 @@ body{
     width: 50%;
     margin-left: 10px;
     margin-right: 10px;
-    height: 100%;
     padding: 20px;
 }
 .contact{
